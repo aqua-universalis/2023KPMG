@@ -1,0 +1,88 @@
+.div,
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 21px;
+  height: 21px;
+}
+.div {
+  top: 2px;
+  left: 6px;
+  font-weight: 500;
+  display: inline-block;
+  width: 9px;
+  height: 18px;
+}
+.ellipseParent {
+  position: absolute;
+  top: 21px;
+  left: 23px;
+  width: 21px;
+  height: 21px;
+}
+.div1 {
+  position: absolute;
+  top: 5.79%;
+  left: 10.88%;
+  font-size: var(--font-size-5xl);
+  font-weight: 600;
+}
+.ellipseIcon,
+.rectangleIcon {
+  position: absolute;
+  height: 108.42%;
+  width: 25.18%;
+  top: -26.32%;
+  right: 83.99%;
+  bottom: 17.89%;
+  left: -9.17%;
+  border-radius: var(--br-xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.rectangleIcon {
+  height: 53.68%;
+  width: 100%;
+  top: 46.32%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-2xl);
+}
+.div2 {
+  position: absolute;
+  top: 56.84%;
+  left: 7.21%;
+  font-weight: 500;
+}
+.span {
+  color: var(--color-gray-400);
+}
+.div3 {
+  position: absolute;
+  top: 75.79%;
+  left: 6.97%;
+  font-weight: 600;
+  color: var(--color-navy-100);
+}
+.component3 {
+  position: absolute;
+  top: -88px;
+  left: 0;
+  width: 818px;
+  height: 190px;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-400);
+}
+.keywordex {
+  position: relative;
+  width: 100%;
+  height: 102px;
+  text-align: center;
+  font-size: var(--body-normal-14-size);
+  color: var(--primary-purple-dark-100);
+  font-family: var(--overline);
+}

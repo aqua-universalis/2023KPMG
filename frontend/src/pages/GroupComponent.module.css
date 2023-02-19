@@ -1,0 +1,28 @@
+.groupChild,
+.groupInner,
+.groupItem {
+  position: absolute;
+  height: 100%;
+  width: 16.98%;
+  top: 0;
+  right: 41.51%;
+  bottom: 0;
+  left: 41.51%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.groupInner,
+.groupItem {
+  right: 0;
+  left: 83.02%;
+}
+.groupInner {
+  right: 83.02%;
+  left: 0;
+}
+.ellipseParent {
+  position: relative;
+  width: 100%;
+  height: 9px;
+}

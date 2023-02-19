@@ -1,0 +1,19 @@
+.vectorIcon {
+  position: absolute;
+  height: 17.5%;
+  width: 8.75%;
+  top: -58.75%;
+  right: 146.25%;
+  bottom: 141.25%;
+  left: -55%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.arrowSlide {
+  position: relative;
+  width: 100%;
+  height: 80px;
+  transform: rotate(180deg);
+  transform-origin: 0 0;
+}

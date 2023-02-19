@@ -1,0 +1,123 @@
+.rectangleIcon {
+  position: absolute;
+  top: -50px;
+  left: -75px;
+  border-radius: var(--br-2xl);
+  width: 1036px;
+  height: 299px;
+}
+.div {
+  position: absolute;
+  top: 43px;
+  left: 47px;
+  font-size: var(--font-size-4xl);
+  font-weight: 600;
+}
+.div1,
+.div2,
+.div3 {
+  position: relative;
+  font-weight: 500;
+}
+.div2,
+.div3 {
+  color: var(--color-gray-300);
+}
+.div3 {
+  color: var(--color-silver);
+}
+.div4,
+.parent {
+  position: absolute;
+}
+.parent {
+  top: 89px;
+  left: 47px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-md);
+}
+.div4 {
+  top: 19px;
+  left: 429px;
+  background: linear-gradient(270deg, #fff, rgba(255, 255, 255, 0));
+  width: 429px;
+  height: 116px;
+}
+.div6,
+.div7 {
+  left: 28px;
+  font-weight: 600;
+}
+.div6 {
+  position: absolute;
+  top: 39px;
+}
+.div7 {
+  top: 77px;
+  font-size: var(--font-size-4xl);
+  color: var(--color-midnightblue-100);
+}
+.div5,
+.div7,
+.div8 {
+  position: absolute;
+}
+.div8 {
+  top: 81px;
+  left: 82px;
+  font-weight: 600;
+  color: var(--black);
+}
+.div5 {
+  top: 0;
+  left: 553px;
+  box-shadow: 0 25px 75px rgba(0, 0, 0, 0.1);
+  width: 266px;
+  height: 135px;
+  overflow: hidden;
+}
+.div9 {
+  position: relative;
+  letter-spacing: 0.2px;
+  font-weight: 600;
+}
+.divider,
+.price {
+  position: absolute;
+}
+.price {
+  top: 61px;
+  right: 41px;
+  border-radius: var(--br-2xs);
+  background-color: var(--primary-purple-dark-10);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-sm) var(--padding-md);
+  align-items: center;
+  justify-content: flex-end;
+  text-align: right;
+  font-size: var(--h8-size);
+  color: var(--primary-purple-dark-100);
+  font-family: var(--h7);
+}
+.divider {
+  width: calc(100% - 885px);
+  right: 349.5px;
+  bottom: 21.5px;
+  left: 535.5px;
+  border-right: 1px solid var(--on-white-grey-20);
+  box-sizing: border-box;
+  height: 105px;
+}
+.rectangleParent {
+  position: relative;
+  width: 100%;
+  height: 149px;
+  text-align: left;
+  font-size: var(--h7-size);
+  color: var(--black-2);
+  font-family: var(--overline);
+}
